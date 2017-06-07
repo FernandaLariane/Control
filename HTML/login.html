@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+	   	<meta charset="utf-8">
+	   	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="..\CSS\reset.css" rel="stylesheet" type="text/css">
+        <link href="..\CSS\default.css" rel="stylesheet" type="text/css">
+		<link href="..\CSS\login.css" rel="stylesheet" type="text/css">
+	</head>
+	<body class="container-fluid">
+		<iframe src="..\HTML\header.html"  frameborder="0" scrolling="no"></iframe>
+		<container>
+			<div class="container">
+			    	<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header" align="center">
+								<img class="img-circle" id="img_logo" src="https://previews.123rf.com/images/ladiseno/ladiseno1310/ladiseno131000478/23262028-abstract-cinema-symbol-with-shadow-effect-on-white-background-Stock-Vector.jpg">
+							</div>
+			                <div id="div-forms">
+			                    <form id="login-form">
+					                <div class="modal-body">
+							    		<div id="div-login-msg">
+			                                <div id="icon-login-msg" class="glyphicon glyphicon-chevron-right"></div>
+			                                <span id="text-login-msg">Insira seu login e senha</span>
+			                            </div>
+							    		<input id="login_username" class="form-control" type="text" placeholder="Login" required>
+							    		<input id="login_password" class="form-control" type="password" placeholder="Senha" required>
+			                            <div class="checkbox">
+			                                <label><input type="checkbox">Lembrar-me</label>
+			                            </div>
+			        		    	</div>
+							        <div class="modal-footer">
+			                            <div>
+			                                <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
+			                            </div>
+							    	    <div>
+			                                <button id="login_lost_btn" type="button" class="btn btn-link">Esqueceu a senha?</button>
+			                                <button id="login_register_btn" type="button" class="btn btn-link">Registrar</button>
+			                            </div>
+							        </div>
+			                    </form>
+			                    <form id="lost-form" style="display:none;">
+			    	    		    <div class="modal-body">
+					    				<div id="div-lost-msg">
+			                                <div id="icon-lost-msg" class="glyphicon glyphicon-chevron-right"></div>
+			                                <span id="text-lost-msg">Insira seu e-mail</span>
+			                            </div>
+					    				<input id="lost_email" class="form-control" type="text" placeholder="E-Mail" required>
+			            			</div>
+					    		    <div class="modal-footer">
+			                            <div>
+			                                <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar</button>
+			                            </div>
+			                            <div>
+			                                <button id="lost_login_btn" type="button" class="btn btn-link">Entrar</button>
+			                                <button id="lost_register_btn" type="button" class="btn btn-link">Registrar</button>
+			                            </div>
+					    		    </div>
+			                    </form>
+			                    <form id="register-form" style="display:none;">
+			            		    <div class="modal-body">
+					    				<div id="div-register-msg">
+			                                <div id="icon-register-msg" class="glyphicon glyphicon-chevron-right"></div>
+			                                <span id="text-register-msg">Registre uma conta</span>
+			                            </div>
+					    				<input id="register_username" class="form-control" type="text" placeholder="Login" required>
+			                            <input id="register_email" class="form-control" type="text" placeholder="E-Mail" required>
+			                            <input id="register_password" class="form-control" type="password" placeholder="Password" required>
+			            			</div>
+					    		    <div class="modal-footer">
+			                            <div>
+			                                <button type="submit" class="btn btn-primary btn-lg btn-block">Registrar</button>
+			                            </div>
+			                            <div>
+			                                <button id="register_login_btn" type="button" class="btn btn-link">Enviar</button>
+			                                <button id="register_lost_btn" type="button" class="btn btn-link">Esqueceu sua senha?</button>
+			                            </div>
+					    		    </div>
+			                    </form>			                    
+			                </div>
+					</div>
+			</div>
+		</div>
+		</container>
+		<iframe class="footer" src="..\HTML\footer.html"  frameborder="0" scrolling="no"></iframe>
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</body>
+</html>

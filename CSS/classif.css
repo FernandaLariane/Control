@@ -1,0 +1,18 @@
+<!--Documento CSS - Pagina Classificação -->
+.row{
+    -webkit-width: 2000px;
+       -moz-width: 2000px;
+            width: 2000px;
+    -webkit-position: center;
+       -moz-position: center;
+            position: center;
+            overflow: visible;
+}
+.col-xs-6{
+    -webkit-width: 195px;
+       -moz-width: 195px;
+            width: 195px;
+    -webkit-height: 195px;
+       -moz-height: 195px;
+            height: 195px;
+}

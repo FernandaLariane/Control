@@ -1,0 +1,6 @@
+.navbar-default{
+position: fixed;
+-webkit-background-color: rgba(211, 211, 211, 1);
+   -moz-background-color: rgba(211, 211, 211, 1);
+		background-color: rgba(211, 211, 211, 1);
+}
