@@ -9,17 +9,17 @@ iframe{
     -webkit-height: 55px;
        -moz-height: 55px;
             height: 55px;
-    -webkit-width: 1550px;
-       -moz-width: 1550px;
-            width: 1550px;
+    -webkit-width: 100%;
+       -moz-width: 100%;
+            width: 100%;
 }
 .footer{
     -webkit-position: absolute;
        -moz-position: absolute;
             position:absolute;
-    -webkit-width: 1550px;
-       -moz-width: 1550px;
-            width: 1550px;
+    -webkit-width: 100%;
+       -moz-width: 100%;
+            width: 100%;
     -webkit-height: 30px;
        -moz-height: 30px;
             height: 30px;

@@ -1,6 +1,5 @@
 .banner{
     background-color: black;
-    
     background-size: 300px 150px;
     color: white;
     left: 0;
@@ -8,11 +7,71 @@
     padding: 3em;
     position: absolute;
     right: 0;
-    text-align: center;
-    height: auto;
+    height: 2500px;
     margin: 0 auto;
 }
-
-img{
-	
+.texto{
+    font-size: "Times New Roman";
+    font-size: 50px;
+    list-style-type: none;
+}
+#marvel{
+    top: 1%;
+    left: 65%;
+    position: absolute;
+}
+#dc{
+    top: 14%;
+    left: 10%;
+    height: 8%;  
+    width: 10%;
+    position: absolute;
+}
+#batman{
+	top: 12%;
+    left: 60%;
+    position: absolute;
+}
+.deseja{
+    top: 24%;
+    left: 60%;
+    position: absolute;
+}
+.igual{
+    top:28%;
+    left:60%;
+    position: absolute;
+}
+#scorpion{
+    top: 24%;
+    left: 10%;
+    position: absolute;
+}
+#bobafett{
+    top: 34%;
+    left: 60%;
+    height: 35%;
+    width: 40%;
+    position: absolute;
+}
+.apaixonada{
+    top: 47%;
+    left: 10%;
+    height: 50%;
+    width: 30%;
+    position: absolute;
+}
+.supreenda{
+    top: 74%;
+    left: 60%;
+    height: 25%;
+    width: 30%;
+    position: absolute;
+}
+#volverine{
+    top: 64%;
+    left: 10%;
+    height: 25%;
+    width: 30%;
+    position: absolute;
 }
