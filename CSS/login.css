@@ -2,103 +2,180 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 
 * {
-    font-family: 'Roboto', sans-serif;
+    -webkit-font-family: 'Roboto', sans-serif;
+       -moz-font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto', sans-serif;
+
 }
 
 #login-modal .modal-dialog {
-    width: 350px;
+    -webkit-width: 350px;
+       -moz-width: 350px;
+            width: 350px;
 }
 
 #login-modal input[type=text], input[type=password] {
-	margin-top: 10px;
+	-webkit-margin-top: 10px;
+       -moz-margin-top: 10px;
+            margin-top: 10px;
 }
 
 #div-login-msg,
 #div-lost-msg,
 #div-register-msg {
-    border: 1px solid #dadfe1;
-    height: 30px;
-    line-height: 28px;
-    transition: all ease-in-out 500ms;
+    -webkit-border: 1px solid #dadfe1;
+       -moz-border: 1px solid #dadfe1;
+            border: 1px solid #dadfe1;
+    -webkit-height: 30px;
+       -moz-height: 30px;
+            height: 30px;
+    -webkit-line-height: 28px;
+       -moz-line-height: 28px;
+            line-height: 28px;
+    -webkit-transition: all ease-in-out 500ms;
+       -moz-transition: all ease-in-out 500ms;
+            transition: all ease-in-out 500ms;
 }
 
 #div-login-msg.success,
 #div-lost-msg.success,
 #div-register-msg.success {
-    border: 1px solid #68c3a3;
-    background-color: #c8f7c5;
+    -webkit-border: 1px solid #68c3a3;
+       -moz-border: 1px solid #68c3a3;
+            border: 1px solid #68c3a3;
+    -webkit-background-color: #c8f7c5;
+       -moz-background-color: #c8f7c5;
+            background-color: #c8f7c5;
 }
 
 #div-login-msg.error,
 #div-lost-msg.error,
 #div-register-msg.error {
-    border: 1px solid #eb575b;
-    background-color: #ffcad1;
+    -webkit-border: 1px solid #eb575b;
+       -moz-border: 1px solid #eb575b;
+            border: 1px solid #eb575b;
+    -webkit-background-color: #ffcad1;
+       -moz-background-color: #ffcad1;
+            background-color: #ffcad1;
 }
 
 #icon-login-msg,
 #icon-lost-msg,
 #icon-register-msg {
-    width: 30px;
-    float: left;
-    line-height: 28px;
-    text-align: center;
-    background-color: #dadfe1;
-    margin-right: 5px;
-    transition: all ease-in-out 500ms;
+    -webkit-width: 30px;
+       -moz-width: 30px;
+            width: 30px;
+    -webkit-float: left;
+       -moz-float: left;
+            float: left;
+    -webkit-line-height: 28px;
+       -moz-line-height: 28px;
+            line-height: 28px;
+    -webkit-text-align: center;
+       -moz-text-align: center;
+            text-align: center;
+    -webkit-background-color: #dadfe1;
+       -moz-background-color: #dadfe1;
+            background-color: #dadfe1;
+    -webkit-margin-right: 5px;
+       -moz-margin-right: 5px;
+            margin-right: 5px;
+    -webkit-transition: all ease-in-out 500ms;
+       -moz-transition: all ease-in-out 500ms;
+            transition: all ease-in-out 500ms;
 }
 
 #icon-login-msg.success,
 #icon-lost-msg.success,
 #icon-register-msg.success {
-    background-color: #68c3a3 !important;
+    -webkit-background-color: #68c3a3 !important;
+       -moz-background-color: #68c3a3 !important;
+            background-color: #68c3a3 !important;
 }
 
 #icon-login-msg.error,
 #icon-lost-msg.error,
 #icon-register-msg.error {
-    background-color: #eb575b !important;
+    -webkit-background-color: #eb575b !important;
+       -moz-background-color: #eb575b !important;
+            background-color: #eb575b !important;
 }
 
 #img_logo {
-    max-height: 150px;
-    max-width: 150px;
+    -webkit-max-height: 150px;
+       -moz-max-height: 150px;
+            max-height: 150px;
+    -webkit-max-width: 150px;
+       -moz-max-width: 150px;
+            max-width: 150px;
 }
 .modal-backdrop.in {
-    filter: alpha(opacity=50);
-    opacity: .8;
+    -webkit-filter: alpha(opacity=50);
+       -moz-filter: alpha(opacity=50);
+            filter: alpha(opacity=50);
+    -webkit-opacity: .8;
+       -moz-opacity: .8;
+            opacity: .8;
 }
 
 .modal-content {
-    background-color: #ececec;
-    border: 1px solid #bdc3c7;
-    border-radius: 0px;
-    outline: 0;
+    -webkit-background-color: #ececec;
+       -moz-background-color: #ececec;
+            background-color: #ececec;
+    -webkit-border: 1px solid #bdc3c7;
+       -moz-border: 1px solid #bdc3c7;
+            border: 1px solid #bdc3c7;
+    -webkit-border-radius: 0px;
+       -moz-border-radius: 0px;
+            border-radius: 0px;
+    -webkit-outline: 0;
+       -moz-outline: 0;
+            outline: 0;
 }
 
 .modal-header {
-    min-height: 16.43px;
-    padding: 15px 15px 15px 15px;
-    border-bottom: 0px;
+    -webkit-min-height: 16.43px;
+       -moz-min-height: 16.43px;
+            min-height: 16.43px;
+    -webkit-padding: 15px 15px 15px 15px;
+       -moz-padding: 15px 15px 15px 15px;
+            padding: 15px 15px 15px 15px;
+    -webkit-border-bottom: 0px;
+       -moz-border-bottom: 0px;
+            border-bottom: 0px;
 }
 
 .modal-body {
-    position: relative;
-    padding: 5px 15px 5px 15px;
+    -webkit-position: relative;
+       -moz-position: relative;
+            position: relative;
+    -webkit-padding: 5px 15px 5px 15px;
+       -moz-padding: 5px 15px 5px 15px;
+            padding: 5px 15px 5px 15px;
 }
 
 .modal-footer {
-    padding: 15px 15px 15px 15px;
-    text-align: left;
-    border-top: 0px;
+    -webkit-padding: 15px 15px 15px 15px;
+       -moz-padding: 15px 15px 15px 15px;
+            padding: 15px 15px 15px 15px;
+    -webkit-text-align: left;
+       -moz-text-align: left;
+            text-align: left;
+    -webkit-border-top: 0px;
+       -moz-border-top: 0px;
+            border-top: 0px;
 }
 
 .checkbox {
-    margin-bottom: 0px;
+    -webkit-margin-bottom: 0px;
+       -moz-margin-bottom: 0px;
+            margin-bottom: 0px;
 }
 
 .btn {
-    border-radius: 0px;
+    -webkit-border-radius: 0px;
+       -moz-border-radius: 0px;
+            border-radius: 0px;
 }
 
 .btn:focus,
@@ -107,27 +184,43 @@
 .btn.focus,
 .btn:active.focus,
 .btn.active.focus {
-    outline: none;
+    -webkit-outline: none;
+       -moz-outline: none;
+            outline: none;
 }
 
 .btn-lg, .btn-group-lg>.btn {
-    border-radius: 0px;
+    -webkit-border-radius: 0px;
+       -moz-border-radius: 0px;
+            border-radius: 0px;
 }
 
 .btn-link {
-    padding: 5px 10px 0px 0px;
-    color: #95a5a6;
+    -webkit-padding: 5px 10px 0px 0px;
+       -moz-padding: 5px 10px 0px 0px;
+            padding: 5px 10px 0px 0px;
+    -webkit-color: #95a5a6;
+       -moz-color: #95a5a6;
+            color: #95a5a6;
 }
 
 .btn-link:hover, .btn-link:focus {
-    color: #2c3e50;
-    text-decoration: none;
+    -webkit-color: #2c3e50;
+       -moz-color: #2c3e50;
+            color: #2c3e50;
+    -webkit-text-decoration: none;
+       -moz-text-decoration: none;
+            text-decoration: none;
 }
 
 .glyphicon {
-    top: 0px;
+    -webkit-top: 0px;
+       -moz-top: 0px;
+            top: 0px;
 }
 
 .form-control {
-  border-radius: 0px;
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
 }

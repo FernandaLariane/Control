@@ -1,77 +1,181 @@
 .banner{
-    background-color: black;
-    background-size: 300px 150px;
-    color: white;
-    left: 0;
-    overflow: auto;
-    padding: 3em;
-    position: absolute;
-    right: 0;
-    height: 2500px;
-    margin: 0 auto;
+    -webkit-background-color: black;
+       -moz-background-color: black;
+            background-color: black;
+    -webkit-background-size: 300px 150px;
+       -moz-background-size: 300px 150px;
+            background-size: 300px 150px;
+    -webkit-color: white;
+       -moz-color: white;
+            color: white;
+    -webkit-left: 0;
+       -moz-left: 0;
+            left: 0;
+            overflow: auto;
+    -webkit-padding: 3em;
+       -moz-padding: 3em;
+            padding: 3em;
+    -webkit-position: absolute;
+       -moz-position: absolute;
+            position: absolute;
+    -webkit-right: 0;
+       -moz-right: 0;
+            right: 0;
+    -webkit-height: 2500px;
+       -moz-height: 2500px;
+            height: 2500px;
+    -webkit-margin: 0 auto;
+       -moz-margin: 0 auto;
+            margin: 0 auto;
 }
 .texto{
-    font-size: "Times New Roman";
-    font-size: 50px;
-    list-style-type: none;
+    -webkit-font-size: "Times New Roman";
+       -moz-font-size: "Times New Roman";
+            font-size: "Times New Roman";
+    -webkit-font-size: 50px;
+       -moz-font-size: 50px;
+            font-size: 50px;
+    -webkit-list-style-type: none;
+       -moz-list-style-type: none;
+            list-style-type: none;
 }
 #marvel{
-    top: 1%;
-    left: 65%;
-    position: absolute;
+    -webkit-top: 1%;
+       -moz-top: 1%;
+            top: 1%;
+    -webkit-left: 65%;
+       -moz-left: 65%;
+            left: 65%;
+    -webkit-position: absolute;
+       -moz-position: absolute;
+            position: absolute;
 }
 #dc{
-    top: 14%;
-    left: 10%;
-    height: 8%;  
-    width: 10%;
-    position: absolute;
+    -webkit-top: 14%;
+       -moz-top: 14%;
+            top: 14%;
+    -webkit-left: 10%;
+       -moz-left: 10%;
+            left: 10%;
+    -webkit-height: 8%;
+       -moz-height: 8%;
+            height: 8%;  
+    -webkit-width: 10%;
+       -moz-width: 10%;
+            width: 10%;
+     -webkit-position: absolute;
+       -moz-position: absolute;
+            position: absolute;
 }
 #batman{
-	top: 12%;
-    left: 60%;
-    position: absolute;
+	-webkit-top: 12%;
+       -moz-top: 12%;
+            top: 12%;
+    -webkit-left: 60%;
+       -moz-left: 60%;
+            left: 60%;
+    -webkit-position: absolute;
+       -moz-position: absolute;
+            position: absolute;
 }
 .deseja{
-    top: 24%;
-    left: 60%;
-    position: absolute;
+    -webkit-top: 24%;
+       -moz-top: 24%;
+            top: 24%;
+    -webkit-left: 60%;
+       -moz-left: 60%;
+            left: 60%;
+    -webkit-position: absolute;
+       -moz-position: absolute;
+            position: absolute;
 }
 .igual{
-    top:28%;
-    left:60%;
-    position: absolute;
+    -webkit-top:28%;
+       -moz-top:28%;
+            top:28%;
+    -webkit-left: 60%;
+       -moz-left: 60%;
+            left: 60%;
+    -webkit-position: absolute;
+       -moz-position: absolute;
+            position: absolute;
 }
 #scorpion{
-    top: 24%;
-    left: 10%;
-    position: absolute;
+    -webkit-top: 24%;
+       -moz-top: 24%;
+            top: 24%;
+    -webkit-left: 10%;
+       -moz-left: 10%;
+            left: 10%;
+    -webkit-position: absolute;
+       -moz-position: absolute;
+            position: absolute;
 }
 #bobafett{
-    top: 34%;
-    left: 60%;
-    height: 35%;
-    width: 40%;
-    position: absolute;
+    -webkit-top: 34%;
+       -moz-top: 34%;
+            top: 34%;
+     -webkit-left: 60%;
+       -moz-left: 60%;
+            left: 60%;
+    -webkit-height: 35%;
+       -moz-height: 35%;
+            height: 35%;
+    -webkit-width: 40%;
+       -moz-width: 40%;
+            width: 40%;
+    -webkit-position: absolute;
+       -moz-position: absolute;
+            position: absolute;
 }
 .apaixonada{
-    top: 47%;
-    left: 10%;
-    height: 50%;
-    width: 30%;
-    position: absolute;
+    -webkit-top: 47%;
+       -moz-top: 47%;
+            top: 47%;
+    -webkit-left: 10%;
+       -moz-left: 10%;
+            left: 10%;
+    -webkit-height: 50%;
+       -moz-height: 50%;
+            height: 50%;
+    -webkit-width: 30%;
+       -moz-width: 30%;
+            width: 30%;
+    -webkit-position: absolute;
+       -moz-position: absolute;
+            position: absolute;
 }
 .supreenda{
-    top: 74%;
-    left: 60%;
-    height: 25%;
-    width: 30%;
-    position: absolute;
+    -webkit-top: 74%;
+       -moz-top: 74%;
+            top: 74%;
+    -webkit-left: 60%;
+       -moz-left: 60%;
+            left: 60%;
+    -webkit-height: 25%;
+       -moz-height: 25%;
+            height: 25%;
+    -webkit-width: 30%;
+       -moz-width: 30%;
+            width: 30%;
+     -webkit-position: absolute;
+       -moz-position: absolute;
+            position: absolute;
 }
 #volverine{
-    top: 64%;
-    left: 10%;
-    height: 25%;
-    width: 35%;
-    position: absolute;
+    -webkit-top: 64%;
+       -moz-top: 64%;
+            top: 64%;
+    -webkit-left: 10%;
+       -moz-left: 10%;
+            left: 10%;
+    -webkit-height: 25%;
+       -moz-height: 25%;
+            height: 25%;
+    -webkit-width: 35%;
+       -moz-width: 35%;
+            width: 35%;
+    -webkit-position: absolute;
+       -moz-position: absolute;
+            position: absolute;
 }
